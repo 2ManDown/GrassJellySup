@@ -5,7 +5,7 @@
         <section class="scrollable padder">
           <section class="row m-b-md">
             <div class="col-sm-6">
-              <h3 class="m-b-xs text-black">Grass Jelly | โรงงานเฉาก๊วย</h3>
+              <h3 class="m-b-xs text-black">Grass Jelly | ศูนย์กระจาย</h3>
               <small>Welcome back <i class="fa fa-map-marker fa-lg text-primary"></i> Khon Kaen, Thailand</small>
             </div>
 

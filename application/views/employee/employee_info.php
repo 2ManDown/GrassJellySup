@@ -1,17 +1,16 @@
 <section id="content">
     <section class="vbox">
-        <section class="scrollable padder" style="margin: 0px; padding: 0px;">
+        <section class="scrollable padder">
             <section class="panel panel-default">
-
-                <header class="panel-heading font-bold" style="font-size: 22px; color:dimgray">
-                    รายการคลังวัตถุดิบ
+                <header class="panel-heading font-bold" style="font-size: 23px; color:dimgray;">
+                    ข้อมูลพนักงาน
                 </header>
                 <div class="row wrapper">
                     <div class="col-sm-5 m-b-xs" style="position: ralative; top: 18px; margin-bottom: 40px;">
-                        <!-- <a href="<?php echo site_url('metarial/metarial_reavel') ?>" class="btn btn-s-lg btn-success btn-rounded">เบิกใช้วัตถุดิบ</a> -->
+                        <a href="<?php echo site_url('employee/employee_addinfo') ?>" class="btn btn-s-lg btn-success btn-rounded">เพิ่มข้อมูลพนักงาน</a>
                     </div>
                     <div class="col-sm-4 m-b-xs" style="margin-top: 20px">
-                        <div class="btn-group" data-toggle="buttons">
+                        <!-- <div class="btn-group" data-toggle="buttons">
                             <label class="btn btn-sm btn-default active">
                                 <input type="radio" name="options" id="option1"> รายวัน
                             </label>
@@ -21,9 +20,8 @@
                             <label class="btn btn-sm btn-default">
                                 <input type="radio" name="options" id="option2"> รายเดือน
                             </label>
-                        </div>
+                        </div> -->
                     </div>
-
                     <div class="col-sm-3" style="margin-top: 20px">
                         <div class="input-group">
                             <input type="text" class="input-sm form-control" placeholder="Search">
@@ -34,36 +32,34 @@
                     </div>
                 </div>
 
-                <div class="table-responsive">
+                <div class="table-responsive" style="margin-bottom: 0px;">
                     <table class="table table-striped b-t b-light table-bordered">
                         <div>
                             <tr>
-                                <th>รหัสวัตถุดิบ</th>
-                                <th>ชื่อวัตถุดิบ</th>
-                                <th>ปริมาตร</th>
-                                <th>ราคาต่อหน่วย</th>
-                                <th>ประเภท</th>
-                                <th>วันหมดอายุ</th>
-                                <th>จำนวนคงเหลือ</th>
-                                <th></th>
+                                <th>รหัสบัตรประชานชน</th>
+                                <th>ชื่อ - สกุล</th>
+                                <th>เพศ</th>
+                                <th>วันเดือนปีเกิด</th>
+                                <th>อายุ</th>
+                                <th>ที่อยู่</th>
+                                <th>เบอร์โทรศัพท์</th>
+                                <th>อีเมล</th>
                             </tr>
                         </div>
                         <tbody>
                             <tr>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>6</td>
-                                <td>7</td>
-                                <td style="text-align: center;"><a href="<?php echo site_url('metarial/metarial_reavel') ?>" class="btn btn-s-xs btn-success btn-rounded">เบิกใช้วัตถุดิบ</a></td>
+                                <td><a href="<?php echo site_url('employee/employee_manage')?>">1</a></td>
+                                <td><a href="<?php echo site_url('employee/employee_manage')?>">2</a></td>
+                                <td><a href="<?php echo site_url('employee/employee_manage')?>">3</a></td>
+                                <td><a href="<?php echo site_url('employee/employee_manage')?>">4</a></td>
+                                <td><a href="<?php echo site_url('employee/employee_manage')?>">5</a></td>
+
                             </tr>
+
 
                         </tbody>
                     </table>
                 </div>
-
                 <footer class="panel-footer">
                     <div class="row">
                         <div class="col-sm-7 text-right text-center-xs">
@@ -79,9 +75,8 @@
                         </div>
                     </div>
                 </footer>
-
             </section>
-            <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen,open" data-target="#nav,html"></a>
         </section>
     </section>
+    <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen,open" data-target="#nav,html"></a>
 </section>

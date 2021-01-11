@@ -8,49 +8,51 @@
 
                     <section class="panel panel-default">
                         <header class="panel-heading font-bold" style="font-size:  18px;">
-                            เพิ่มข้อมูลการผลิตสินค้า
+                            ใบนำเข้าสินค้า
                         </header>
                         <div class="panel-body">
                             <form class="form-horizontal" method="get">
+                                
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label">ลอตการผลิตสินค้า</label>
+                                    <label class="col-sm-3 control-label">สินค้า</label>
                                     <div class="col-sm-7">
-                                        <input type="number" class="form-control rounded">
-
-                                    </div>
-                                </div>
-
-                                <div class="line line-dashed b-b line-lg pull-in"></div>
-                                <div class="form-group">
-                                    <label class="col-sm-3 control-label">สินค้าที่ผลิต</label>
-                                    <div class="col-sm-7">
-                                        <select name="account" class="form-control m-b">
+                                        <select name="account" class="form-control m-b rounded">
+                                            <option value="" disabled selected>กรุณาเลือกสินค้า</option>
                                             <option>สินค้า 1</option>
                                             <option>สินค้า 2</option>
                                         </select>
                                     </div>
                                 </div>
 
-
+                                <div class="line line-dashed b-b line-lg pull-in"></div>
                                 <div class="line line-dashed b-b line-lg pull-in"></div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label" for="input-id-1">ชื่อสินค้า</label>
+                                    <label class="col-sm-3 control-label" for="input-id-1">รหัสโรงงาน</label>
                                     <div class="col-sm-7">
-                                        <input type="text" class="form-control" id="input-id-1" readonly>
+                                        <input type="text" class="form-control" id="input-id-1">
                                     </div>
                                 </div>
 
                                 <div class="line line-dashed b-b line-lg pull-in"></div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label" for="input-id-1">ประเภทบรรจุภัณฑ์</label>
+                                    <label class="col-sm-3 control-label">ชื่อสินค้า</label>
                                     <div class="col-sm-7">
-                                        <input type="text" class="form-control" id="input-id-1" readonly>
+                                        <input type="text" class="form-control">
+                                        <!--<span class="help-block m-b-none">A block of help text that breaks onto a new line and may extend beyond one line.</span>-->
+                                    </div>
+                                </div>
+                                <div class="line line-dashed b-b line-lg pull-in"></div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label" for="input-id-1">ลอตนำเข้าสินค้า</label>
+                                    <div class="col-sm-7">
+                                        <input type="text" class="form-control" id="input-id-1">
                                     </div>
                                 </div>
 
+
                                 <div class="line line-dashed b-b line-lg pull-in"></div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label">วันที่ผลิต</label>
+                                    <label class="col-sm-3 control-label">วันที่นำเข้า</label>
                                     <div class="col-sm-7">
                                         <input class="input-sm input-s datepicker-input form-control" size="16" type="text" value="29-12-2020" data-date-format="dd-mm-yyyy">
                                     </div>
@@ -58,7 +60,7 @@
 
                                 <div class="line line-dashed b-b line-lg pull-in"></div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label" for="input-id-1">จำนวนที่ผลิต</label>
+                                    <label class="col-sm-3 control-label" for="input-id-1">จำนวนนำเข้าสินค้า</label>
                                     <div class="col-sm-7">
                                         <input type="number" class="form-control" id="input-id-1">
                                     </div>

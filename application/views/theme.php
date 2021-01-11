@@ -128,23 +128,43 @@
                         </a>
                       </li>
                       <li>
+                        <a href="<?php echo site_url('product/product_reportim') ?>" class="auto">
+                          <i class="i i-dot"></i>
+
+                          <span>รายงานการนำเข้าสินค้า</span>
+                        </a>
+                      </li>
+                      <li>
                         <a href="<?php echo site_url('product/product_reportex') ?>" class="auto">
                           <i class="i i-dot"></i>
 
                           <span>รายงานการส่งออกสินค้า</span>
                         </a>
                       </li>
-                      <li>
-                        <a href="<?php echo site_url('product/product_manufac') ?>" class="auto">
-                          <i class="i i-dot"></i>
 
-                          <span>เพิ่มข้อมูลการผลิตสินค้า</span>
-                        </a>
-                      </li>
 
                     </ul>
                   </li>
+                  <li>
+                    <a href="#" class="auto">
+                      <span class="pull-right text-muted">
+                        <i class="i i-circle-sm-o text"></i>
+                        <i class="i i-circle-sm text-active"></i>
+                      </span>
 
+                      <i class="fa fa-plane">
+                      </i>
+                      <span class="font-bold">การนำเข้าสินค้า</span>
+                    </a>
+                    <ul class="nav dk">
+                      <li>
+                        <a href="<?php echo site_url('product/product_import') ?>" class="auto">
+                          <i class="i i-dot"></i>
+                          <span>นำเข้าสินค้า</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
 
 
 

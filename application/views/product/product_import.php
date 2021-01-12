@@ -25,7 +25,6 @@
                                 </div>
 
                                 <div class="line line-dashed b-b line-lg pull-in"></div>
-                                <div class="line line-dashed b-b line-lg pull-in"></div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label" for="input-id-1">รหัสโรงงาน</label>
                                     <div class="col-sm-7">

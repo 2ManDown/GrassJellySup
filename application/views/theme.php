@@ -219,7 +219,7 @@
                         <i class="i i-circle-sm text-active"></i>
                       </span>
 
-                      <i class="fa fa-exclamation-circle"></i>
+                      <i class="fa fa-users"></i>
                       <span class="font-bold">พนักงาน</span>
                     </a>
                     <ul class="nav dk">
